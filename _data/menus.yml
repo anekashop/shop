@@ -1,0 +1,35 @@
+# Top Menu
+topmenu:
+
+- title: Beranda
+  url: ""
+
+- title: Tentang Kami
+  url: "tentang-kami/"
+
+- title: Kontak
+  url: "kontak/"
+  
+- title: Kategori Produk
+  url: "kategori-produk/"
+
+- title: Toko Kami
+  url: 
+  class: "ml-2 btn btn-dark text-white px-3"
+  external: true
+
+# Footer Menu
+footermenu:
+
+- title: Home
+  url: ""
+
+- title: Privacy Policy
+  url: "privacy-policy/"
+
+- title: Contact
+  url: "contact/"
+
+- title: Toko Kami
+  url:   
+  external: true
