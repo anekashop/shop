@@ -12,6 +12,6 @@ Di Aneka Shop, kami berkomitmen untuk mendukung produsen lokal dan menghadirkan 
 Jangan ragu untuk menghubungi kami melalui info kontak di bawah ini untuk pertanyaan, saran, atau informasi lebih lanjut:
 
 [📧 Email](mailto:anekashop2024@gmail.com)
-[📞 Whatsapp](href=https://wa.me/6287764241047?text=Saya%20ingin%20bertanya%20soal%produk%20anekashop)
+[📞 Whatsapp](https://wa.me/6287764241047?text=Saya%20ingin%20bertanya%20soal%produk%20anekashop)
 
 Terima kasih telah memilih Aneka Shop sebagai destinasi belanja Anda. Kami berharap dapat memberikan pengalaman berbelanja yang memuaskan dan memperkaya hidup Anda dengan produk-produk istimewa.
