@@ -2,6 +2,6 @@
 layout: post
 title:  "Baju1"
 author: anekashop
-categories: [ Baju, Wanita ]
+categories: [ Baj, Wanita ]
 image: assets/images/1.jpg
 ---
