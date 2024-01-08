@@ -26,7 +26,7 @@ post_class: post-template
                         {% assign sortedCategories = page.categories | sort %}
                         {% for category in sortedCategories %}
                         <li>
-                         <a href="{{ site.baseurl }}/categories#{{ category | slugify }}">{{ category }}</a>
+                         <a href="{{ site.baseurl }}/kategori-produk#{{ category | slugify }}">{{ category }}</a>
                         </li>
                         {% endfor %}
                     </ul>
@@ -34,13 +34,83 @@ post_class: post-template
                 <!-- End Categories -->
                 
                 <!-- Post Title -->
-				<h1 class="posttitle">{{ page.title }}</h1> 
+				<h1 class="posttitle">{{ page.title }}</h1>
+				<h3>Harga: {{ page.harga }}</h3>
+				<a href="{{ page.link }}" ><button type="button" class="btn btn-success">Pesan Produk</button></a>
                 
 			</div>
 
 			
 
 			<!-- Post Content -->
+   <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            {% if page.produk1 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.produk1 }}" alt="{{ page.produk1 }}">{% endif %}
+	  </div>
+        </div>
+        
+        <div class="col">
+          <div class="card shadow-sm">
+            {% if page.produk2 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.produk2 }}" alt="{{ page.produk2 }}">{% endif %}
+	  </div>
+        </div>
+        
+        <div class="col">
+          <div class="card shadow-sm">
+            {% if page.produk3 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.produk3 }}" alt="{{ page.produk3 }}">{% endif %}
+	  </div>
+        </div>
+        
+        <div class="col">
+          <div class="card shadow-sm">
+            {% if page.produk4 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.produk4 }}" alt="{{ page.produk4 }}">{% endif %}
+	  </div>
+        </div>
+        
+        <div class="col">
+          <div class="card shadow-sm">
+            {% if page.produk5 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.produk5 }}" alt="{{ page.produk5 }}">{% endif %}
+	  </div>
+        </div>
+        
+        <div class="col">
+          <div class="card shadow-sm">
+            {% if page.produk6 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.produk6 }}" alt="{{ page.produk6 }}">{% endif %}
+	  </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            {% if page.produk7 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.produk7 }}" alt="{{ page.produk7 }}">{% endif %}
+	  </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            {% if page.produk8 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.produk8 }}" alt="{{ page.produk8 }}">{% endif %}
+	  </div>
+        </div>
+        
+        <div class="col">
+          <div class="card shadow-sm">
+            {% if page.produk9 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.produk9 }}" alt="{{ page.produk9 }}">{% endif %}
+	  </div>
+        </div>
+	      
+        <div class="col">
+          <div class="card shadow-sm">
+            {% if page.produk10 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.produk10 }}" alt="{{ page.produk10 }}">{% endif %}
+	  </div>
+        </div>
+	      
+      </div>
+    </div>
+  </div>
+
+			
 			<div class="article-post serif-font">
 				{{content}}
                 <div class="clearfix"></div>
