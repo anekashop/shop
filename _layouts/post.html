@@ -40,77 +40,62 @@ post_class: post-template
                 
 			</div>
 
-			
-
-			<!-- Post Content -->
-   <div class="album py-5 bg-light">
-    <div class="container">
-
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
-          <div class="card shadow-sm">
-            {% if page.image1 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image1 }}" alt="{{ page.image1 }}">{% endif %}
-	  </div>
-        </div>
-        
-        <div class="col">
-          <div class="card shadow-sm">
-            {% if page.image2 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image2 }}" alt="{{ page.image2 }}">{% endif %}
-	  </div>
-        </div>
-        
-        <div class="col">
-          <div class="card shadow-sm">
-            {% if page.image3 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image3 }}" alt="{{ page.image3 }}">{% endif %}
-	  </div>
-        </div>
-        
-        <div class="col">
-          <div class="card shadow-sm">
-            {% if page.image4 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image4 }}" alt="{{ page.image4 }}">{% endif %}
-	  </div>
-        </div>
-        
-        <div class="col">
-          <div class="card shadow-sm">
-            {% if page.image5 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image5 }}" alt="{{ page.image5 }}">{% endif %}
-	  </div>
-        </div>
-        
-        <div class="col">
-          <div class="card shadow-sm">
-            {% if page.image6 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image6 }}" alt="{{ page.image6 }}">{% endif %}
-	  </div>
-        </div>
-
-        <div class="col">
-          <div class="card shadow-sm">
-            {% if page.image7 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image7 }}" alt="{{ page.image7 }}">{% endif %}
-	  </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            {% if page.image8 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image8 }}" alt="{{ page.image8 }}">{% endif %}
-	  </div>
-        </div>
-        
-        <div class="col">
-          <div class="card shadow-sm">
-            {% if page.image9 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.produk9 }}" alt="{{ page.image9 }}">{% endif %}
-	  </div>
-        </div>
-	      
-        <div class="col">
-          <div class="card shadow-sm">
-            {% if page.image10 %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image10 }}" alt="{{ page.image10 }}">{% endif %}
-	  </div>
-        </div>
-	      
-      </div>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item">
+      {% if page.image1 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image1 }}" alt="produk1">{% endif %}
+    </div>
+    <div class="carousel-item">
+      {% if page.image2 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image2 }}" alt="produk2">{% endif %}
+    </div>
+    <div class="carousel-item">
+      {% if page.image3 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image3 }}" alt="produk3">{% endif %}
+    </div>
+    <div class="carousel-item active">
+      {% if page.image4 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image4 }}" alt="produk4">{% endif %}
+    </div>
+    <div class="carousel-item">
+      {% if page.image5 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image5 }}" alt="produk5">{% endif %}
+    </div>
+    <div class="carousel-item">
+      {% if page.image6 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image6 }}" alt="produk6">{% endif %}
+    </div>
+    <div class="carousel-item active">
+      {% if page.image7 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image7 }}" alt="produk7">{% endif %}
+    </div>
+    <div class="carousel-item">
+      {% if page.image8 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image8 }}" alt="produk8">{% endif %}
+    </div>
+    <div class="carousel-item">
+      {% if page.image9 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image9 }}" alt="produk9">{% endif %}
+    </div>
+    <div class="carousel-item">
+      {% if page.image10 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image10 }}" alt="produk10">{% endif %}
     </div>
   </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>			
 
-			
+			<!-- Post Content -->		
 			<div class="article-post serif-font">
 				{{content}}
                 <div class="clearfix"></div>
