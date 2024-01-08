@@ -27,11 +27,11 @@ authors:
   anekashop:
     name: Aneka Shop
     display_name: Aneka Shop
-    avatar: 'assets/images/anekaproduk.png'
+    avatar: 'assets/images/anekashop.png'
     email: anekashop2024@gmail.com
-    web: https://anekashop.github.io/
+    web: https://id.shp.ee/mavo04w?smtt=0.0.9
     twitter: 
-    description: "Menjual semua produk terbaik dan beragam jenis."
+    description: "Aneka Shop adalah seorang penulis yang kreatif dan berbakat, menciptakan karya-karya yang menggabungkan imajinasi mendalam dengan keahlian menulis yang luar biasa. Dengan gaya penulisan yang unik, Aneka Shop berhasil menghadirkan cerita-cerita yang memikat pembaca dan memperkaya dunia literatur dengan ide-ide segar dan inovatif."
 
 # Social
 social:
