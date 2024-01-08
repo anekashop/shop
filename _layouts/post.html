@@ -39,39 +39,38 @@ post_class: post-template
 		<a href="{{ page.link }}" ><button type="button" class="btn btn-success">Pesan Produk</button></a>
 		</div>			
 
-			<!-- Post Content -->		
-			<div class="article-post serif-font">
+<!-- Post Content -->
 <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item">
-      {% if page.image1 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image1 }}" alt="produk1">{% endif %}
+      <img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image1 }}" alt="produk1">
     </div>
     <div class="carousel-item">
-      {% if page.image2 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image2 }}" alt="produk2">{% endif %}
+      <img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image2 }}" alt="produk2">
     </div>
     <div class="carousel-item">
-      {% if page.image3 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image3 }}" alt="produk3">{% endif %}
+      <img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image3 }}" alt="produk3">
     </div>
     <div class="carousel-item active">
-      {% if page.image4 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image4 }}" alt="produk4">{% endif %}
+      <img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image4 }}" alt="produk4">
     </div>
     <div class="carousel-item">
-      {% if page.image5 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image5 }}" alt="produk5">{% endif %}
+      <img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image5 }}" alt="produk5">
     </div>
     <div class="carousel-item">
-      {% if page.image6 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image6 }}" alt="produk6">{% endif %}
+      <img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image6 }}" alt="produk6">
     </div>
     <div class="carousel-item active">
-      {% if page.image7 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image7 }}" alt="produk7">{% endif %}
+      <img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image7 }}" alt="produk7">
     </div>
     <div class="carousel-item">
-      {% if page.image8 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image8 }}" alt="produk8">{% endif %}
+      <img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image8 }}" alt="produk8">
     </div>
     <div class="carousel-item">
-      {% if page.image9 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image9 }}" alt="produk9">{% endif %}
+      <img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image9 }}" alt="produk9">
     </div>
     <div class="carousel-item">
-      {% if page.image10 %}<img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image10 }}" alt="produk10">{% endif %}
+      <img class="d-block w-100" src="{{ site.baseurl }}/{{ page.image10 }}" alt="produk10">
     </div>
   </div>
   </div>
@@ -84,7 +83,9 @@ post_class: post-template
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-				{{content}}
+		<div class="article-post serif-font">
+		<h3>Deskripsi produk:</h3>
+		{{content}}
                 <div class="clearfix"></div>
 			</div>
 
