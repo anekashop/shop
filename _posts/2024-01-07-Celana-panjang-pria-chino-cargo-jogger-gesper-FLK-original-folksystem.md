@@ -4,10 +4,19 @@ title:  "Celana panjang pria chino cargo jogger gesper FLK original folksystem"
 author: anekashop
 categories: [ Celana, Pria ]
 image: assets/images/chino1.jpg
+harga: Rp99.000
+link: "https://shope.ee/7AELDsp4pu"
+produk1: assets/images/chino1.jpg
+produk2: assets/images/chino1.jpg
+produk3: assets/images/chino1.jpg
+produk4: assets/images/chino1.jpg
+produk5: assets/images/chino1.jpg
+produk6: assets/images/chino1.jpg
+produk7: assets/images/chino1.jpg
+produk8: assets/images/chino1.jpg
+produk9: assets/images/chino1.jpg
+produk10: assets/images/chino1.jpg
 ---
-harga Rp99.000
-
-<a href="https://shope.ee/7AELDsp4pu" ><button type="button" class="btn btn-success">Pesan Produk</button></a>
 
 ## Deskripsi Produk
 
