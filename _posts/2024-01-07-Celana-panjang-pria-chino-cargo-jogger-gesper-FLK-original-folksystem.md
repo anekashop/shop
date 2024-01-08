@@ -6,16 +6,16 @@ categories: [ Celana, Pria ]
 image: assets/images/chino1.jpg
 harga: Rp99.000
 link: "https://shope.ee/7AELDsp4pu"
-produk1: assets/images/chino1.jpg
-produk2: assets/images/chino1.jpg
-produk3: assets/images/chino1.jpg
-produk4: assets/images/chino1.jpg
-produk5: assets/images/chino1.jpg
-produk6: assets/images/chino1.jpg
-produk7: assets/images/chino1.jpg
-produk8: assets/images/chino1.jpg
-produk9: assets/images/chino1.jpg
-produk10: assets/images/chino1.jpg
+image1: assets/images/chino1.jpg
+image2: assets/images/chino1.jpg
+image3: assets/images/chino1.jpg
+image4: assets/images/chino1.jpg
+image5: assets/images/chino1.jpg
+image6: assets/images/chino1.jpg
+image7: assets/images/chino1.jpg
+image8: assets/images/chino1.jpg
+image9: assets/images/chino1.jpg
+image10: assets/images/chino1.jpg
 ---
 
 ## Deskripsi Produk
