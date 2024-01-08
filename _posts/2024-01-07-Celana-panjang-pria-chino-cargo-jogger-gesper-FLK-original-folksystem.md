@@ -7,7 +7,7 @@ image: assets/images/chino1.jpg
 ---
 harga Rp99.000
 
-[Pesan Produk](https://shope.ee/7AELDsp4pu)
+<a href="https://shope.ee/7AELDsp4pu" ><button type="button" class="btn btn-success">Pesan Produk</button></a>
 
 ## Deskripsi Produk
 
