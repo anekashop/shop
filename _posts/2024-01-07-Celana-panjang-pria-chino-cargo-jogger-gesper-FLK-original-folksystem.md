@@ -18,8 +18,6 @@ image9: assets/images/chino1.jpg
 image10: assets/images/chino1.jpg
 ---
 
-## Deskripsi Produk
-
 Celana cargo jogger terbuat dari kain katun yang lembut dan halus sehingga nyaman digunakan, ada juga celana chino yang terbuat dari bahancotton drill / twillyang sedikit kaku.
 
 - Available size
