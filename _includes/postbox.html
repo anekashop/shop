@@ -6,7 +6,8 @@
     </a>
     <div class="card-block">
         <h2 class="card-title h4 serif-font"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-        <p class="card-text text-muted">{{ post.excerpt | strip_html | truncatewords:15 }}</p>
+        {% if post.harga %} <p class="card-text text-muted">Harga: {{ post.link }}</p> {% endif %}
+        {% if post.link %} <a href="{{ post.link }}"><button type="button" class="btn btn-success">Beli Produk</button></a> {% endif %}
         <div class="metafooter">
             <div class="wrapfooter small d-flex align-items-center">
                 <span class="author-meta">
