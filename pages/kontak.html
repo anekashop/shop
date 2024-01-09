@@ -6,13 +6,16 @@ comments: false
 ---
 
 <form onsubmit="sendEmail(); reset(); return false;">  
-<p class="mb-4">Thank you for your interest in getting in touch with us. Please send your message here. We will reply as soon as possible!</p>
+<p class="mb-4">Terima kasih anda berlangganan bersama kami, silahkan titipkan pesan anda ke email kami. Kami akan senang melayani anda!</p>
 <div class="form-group row">
 <div class="col-md-6">
 <input class="form-control" type="text" name="name" placeholder="Nama*" required>
 </div>
 <div class="col-md-6">
 <input class="form-control" type="email" name="_replyto" placeholder="Alamat E-mail*" required>
+</div>
+<div class="col-md-6">
+<input class="form-control" type="phone" name="phone" placeholder="No Telp*" required>
 </div>
 </div>
 <textarea rows="8" class="form-control mb-3" name="message" placeholder="Pesan anda*" required></textarea>    
@@ -23,15 +26,19 @@ comments: false
 <script>
     function sendMail(){
         Email.send({
-            Host : "smtp.gmail.com";
-            Username: "anekashop2024@gmail.com";
-            Password: "password";
-            To : "anekashop@website.com";
-            From : "you@isp.com";
-            Subject : "percobaan";
-            Body : "isi saja";
+            Host : "smtp.gmail.com",
+            Username: "anekashop2024@gmail.com",
+            Password: "gvowmziatumtmiua",
+            To : 'anekashop2024@gmail.com',
+            From : document.getElementById("email").value,
+            Subject : "Pesan dari anekashop.github.io",
+            Body : "Name: " + document.getElementById("name").value
+                + "<br> Email: " + document.getElementById("email").value
+                + "<br> Email: " + document.getElementById("email").value
+                + "<br> No Telp: " + document.getElementById("phone").value
+                + "<br> Message: " + document.getElementById("message").value
         }).then(
-        message => alert(message)
+        message => alert("Kirim Pesan Berhasil")
         );
      }
 </script>
