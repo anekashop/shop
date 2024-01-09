@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Dress Kerut Foxy Mahalini"
+title:  "Kaos Pria Wanita 100 Ribu Dapat 6 Kaos Distro Dewasa"
 author: anekashop
 categories: [ Baju, Pria, Wanita ]
 image: assets/images/baju/baju5.png
