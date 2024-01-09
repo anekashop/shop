@@ -1,16 +1,13 @@
 ---
-title: Beranda
+title: Shopping
 layout: default
-background: '/img/bg-index.jpg'
 ---
-
-<!-- Posts List with Sidebar (except featured)
-================================================== -->
-<section>
-  <div style="width:65%;height:80%;">
-        {% include postbox.html %}
-  </div>
-  <div style="width:35%;height:80%;">
-    {% include sidebar.html %}
-  </div>
-</section>
+        {% for post in site.posts %}
+          <tr>
+            <td><img src="{{ post.image }}" width="70px" height="70px"></td>
+            <td>{{ post.title }}</td>
+            <td>{{ post.kategori }}</td>
+            <td>Rp{{ post.harga }}</td>
+            <td><center><a href="{{ post.link }}" >Beli</a></center></td>       
+          </tr>
+        {% endfor %}
