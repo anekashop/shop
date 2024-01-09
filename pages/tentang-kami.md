@@ -2,7 +2,7 @@
 layout: page
 title: Tentang Kami
 permalink: "/tentang-kami/"
-image: assets/images/screenshot.png
+image: assets/images/logo.png
 ---
 
 Selamat datang di Aneka Shop, tempat di mana keberagaman produk lokal dan internasional menyatu dalam satu tempat. Kami bangga menyajikan koleksi produk unik dari berbagai penjuru dunia, mulai dari karya seni lokal yang memikat hati hingga barang-barang eksklusif dari mancanegara.
@@ -11,7 +11,7 @@ Di Aneka Shop, kami berkomitmen untuk mendukung produsen lokal dan menghadirkan 
 
 Jangan ragu untuk menghubungi kami melalui info kontak di bawah ini untuk pertanyaan, saran, atau informasi lebih lanjut:
 
-[📧 Email](mailto:anekashop2024@gmail.com)
-[📞 Whatsapp](https://wa.me/6287764241047?text=Saya%20ingin%20bertanya%20soal%produk%20anekashop)
+<a href="mailto:anekashop2024@gmail.com"><button type="button" class="btn btn-success">Email</button></a>
+<a href="https://wa.me/6287764241047?text=Saya%20ingin%20bertanya%20soal%produk%20anekashop"><button type="button" class="btn btn-success">Whatsapp</button></a>
 
 Terima kasih telah memilih Aneka Shop sebagai destinasi belanja Anda. Kami berharap dapat memberikan pengalaman berbelanja yang memuaskan dan memperkaya hidup Anda dengan produk-produk istimewa.
