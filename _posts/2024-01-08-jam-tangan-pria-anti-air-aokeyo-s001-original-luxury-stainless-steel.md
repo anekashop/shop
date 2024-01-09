@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  "Jam Tangan Pria Anti Air Aokeyo S001 Original Luxury Stainless Steel"
+title: "Jam Tangan Pria Anti Air Aokeyo S001 Original Luxury Stainless Steel"
 author: anekashop
 categories: [ Jam, Pria ]
-image: assets/images/jam0.jpg
+image: assets/images/jam/jam0.jpg
 harga: Rp69.999
 link: "https://shope.ee/8f39oRcyKu"
-image1: assets/images/jam1.jpg
-image2: assets/images/jam2.jpg
-image3: assets/images/jam3.jpg
-image4: assets/images/jam4.jpg
-image5: assets/images/jam5.jpg
-image6: assets/images/jam6.jpg
-image7: assets/images/jam7.jpg
-image8: assets/images/jam8.jpg
+image1: assets/images/jam/jam1.jpg
+image2: assets/images/jam/jam2.jpg
+image3: assets/images/jam/jam3.jpg
+image4: assets/images/jam/jam4.jpg
+image5: assets/images/jam/jam5.jpg
+image6: assets/images/jam/jam6.jpg
+image7: assets/images/jam/jam7.jpg
+image8: assets/images/jam/jam8.jpg
 image9: 
 image10: 
 ---
