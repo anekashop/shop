@@ -2,7 +2,7 @@
 layout: post
 title:  "Hanasui Glazedorable Vinyl Stain"
 categories: [ Kosmetik, Wanita ]
-image: assets/images/hanasui.jpg
+image: assets/images/kosmetik/hanasui.jpg
 ---
 Harga Rp35.000
 
