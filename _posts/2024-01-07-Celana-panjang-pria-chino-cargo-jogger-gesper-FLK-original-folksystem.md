@@ -3,19 +3,19 @@ layout: post
 title:  "Celana panjang pria chino cargo jogger gesper FLK original folksystem"
 author: anekashop
 categories: [ Celana, Pria ]
-image: assets/images/chino1.jpg
+image: assets/images/celana/chino1.jpg
 harga: Rp99.000
 link: "https://shope.ee/7AELDsp4pu"
-image1: assets/images/chino1.jpg
-image2: assets/images/chino1.jpg
-image3: assets/images/chino1.jpg
-image4: assets/images/chino1.jpg
-image5: assets/images/chino1.jpg
-image6: assets/images/chino1.jpg
-image7: assets/images/chino1.jpg
-image8: assets/images/chino1.jpg
-image9: assets/images/chino1.jpg
-image10: assets/images/chino1.jpg
+image1: assets/images/celana/chino1.jpg
+image2: assets/images/celana/chino1.jpg
+image3: assets/images/celana/chino1.jpg
+image4: assets/images/celana/chino1.jpg
+image5: assets/images/celana/chino1.jpg
+image6: assets/images/celana/chino1.jpg
+image7: assets/images/celana/chino1.jpg
+image8: assets/images/celana/chino1.jpg
+image9: assets/images/celana/chino1.jpg
+image10: assets/images/celana/chino1.jpg
 ---
 
 Celana cargo jogger terbuat dari kain katun yang lembut dan halus sehingga nyaman digunakan, ada juga celana chino yang terbuat dari bahancotton drill / twillyang sedikit kaku.
