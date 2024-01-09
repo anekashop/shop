@@ -4,7 +4,7 @@ layout: default
 ---
         {% for post in site.posts %}
           <tr>
-            <td><img src="https://raw.githubusercontent.com/anekashop/shop/main{{ post.image }}" width="70px" height="70px"></td>
+            <td><a href="https://raw.githubusercontent.com/anekashop/shop/main{{ post.image }}" target="_blank"><img src="{{ post.image }}" width="70px" height="70px"></a></td>
             <td>{{ post.title }}</td>
             <td>{{ post.categories }}</td>
             <td>{{ post.harga }}</td>
